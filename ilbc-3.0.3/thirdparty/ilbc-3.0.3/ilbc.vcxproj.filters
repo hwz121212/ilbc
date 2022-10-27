@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2e1c39cd-2fe4-43fe-8a58-c50c629780f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bf019d96-b193-4057-bbe5-c4cd68f5d564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common_audio">
+      <UniqueIdentifier>{bf33fa20-f360-419f-b448-fc06984a7cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\modules">
+      <UniqueIdentifier>{e1e3ab9b-86f4-43e6-af6e-48d4a0c56032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rtc_base">
+      <UniqueIdentifier>{5cb60084-ba1d-4141-9db4-ede2db0bd6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common_audio\signal_processing">
+      <UniqueIdentifier>{50c09ea7-7f5a-4619-a251-a3e933d2ffd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common_audio\signal_processing\include">
+      <UniqueIdentifier>{0573f1b4-2ddb-4270-aff2-7ada21e2ce52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\modules\audio_coding">
+      <UniqueIdentifier>{ec43e837-27c6-4914-b2c9-0585629002be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\modules\audio_coding\codecs">
+      <UniqueIdentifier>{6170bc3f-94e4-4064-a7b0-f307343578ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\modules\audio_coding\codecs\ilbc">
+      <UniqueIdentifier>{3cf5e0d8-4585-4bf3-8c4a-9294d2e0faa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rtc_base\numerics">
+      <UniqueIdentifier>{aa647b16-b583-49d6-a0e6-e8b3549e5c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rtc_base\system">
+      <UniqueIdentifier>{c888a462-4cf3-4dba-912e-e29287cffbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common_audio">
+      <UniqueIdentifier>{55673d1d-22ae-44eb-a016-d28bed514c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common_audio\signal_processing">
+      <UniqueIdentifier>{25916ccf-bcc4-4e22-9e19-bfe365ca1b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules">
+      <UniqueIdentifier>{3bf7c77c-85d4-4a17-a4a5-6643cb8c8b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rtc_base">
+      <UniqueIdentifier>{da0e7e77-d89f-4bf9-bee9-7d72c4b28ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\audio_coding">
+      <UniqueIdentifier>{e857894b-9d58-4436-8e7d-7ca2bd48c420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\audio_coding\codecs">
+      <UniqueIdentifier>{d28eb3e6-d718-4e35-a878-9378b71ec3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\audio_coding\codecs\ilbc">
+      <UniqueIdentifier>{2bc54a32-7672-43a3-ad0d-a84845c1eca2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ilbc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ilbc_export.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\include\real_fft.h">
+      <Filter>include\common_audio\signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\include\signal_processing_library.h">
+      <Filter>include\common_audio\signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\include\spl_inl.h">
+      <Filter>include\common_audio\signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\include\spl_inl_armv7.h">
+      <Filter>include\common_audio\signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\include\spl_inl_mips.h">
+      <Filter>include\common_audio\signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\complex_fft_tables.h">
+      <Filter>include\common_audio\signal_processing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\dot_product_with_scale.h">
+      <Filter>include\common_audio\signal_processing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common_audio\signal_processing\resample_by_2_internal.h">
+      <Filter>include\common_audio\signal_processing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\abs_quant.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\abs_quant_loop.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\audio_decoder_ilbc.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\audio_encoder_ilbc.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\augmented_cb_corr.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\bw_expand.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\cb_construct.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\cb_mem_energy.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\cb_mem_energy_augmentation.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\cb_mem_energy_calc.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\cb_search.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\cb_search_core.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\cb_update_best_index.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\chebyshev.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\comp_corr.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\constants.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\create_augmented_vec.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\decode.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\decode_residual.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\decoder_interpolate_lsf.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\defines.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\do_plc.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\encode.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\energy_inverse.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\enh_upsample.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\enhancer.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\enhancer_interface.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\filtered_cb_vecs.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\frame_classify.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\gain_dequant.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\gain_quant.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\get_cd_vec.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\get_lsp_poly.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\get_sync_seq.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\hp_input.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\hp_output.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\ilbc.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\index_conv_dec.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\index_conv_enc.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\init_decode.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\init_encode.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\interpolate.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\interpolate_samples.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\lpc_encode.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\lsf_check.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\lsf_interpolate_to_poly_dec.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\lsf_interpolate_to_poly_enc.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\lsf_to_lsp.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\lsf_to_poly.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\lsp_to_lsf.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\my_corr.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\nearest_neighbor.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\pack_bits.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\poly_to_lsf.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\poly_to_lsp.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\refiner.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\simple_interpolate_lsf.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\simple_lpc_analysis.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\simple_lsf_dequant.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\simple_lsf_quant.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\smooth.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\smooth_out_data.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\sort_sq.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\split_vq.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\state_construct.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\state_search.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\swap_bytes.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\unpack_bits.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\vq3.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\vq4.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\window32_w32.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\modules\audio_coding\codecs\ilbc\xcorr_coef.h">
+      <Filter>include\modules\audio_coding\codecs\ilbc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\numerics\safe_compare.h">
+      <Filter>include\rtc_base\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\numerics\safe_conversions.h">
+      <Filter>include\rtc_base\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\numerics\safe_conversions_impl.h">
+      <Filter>include\rtc_base\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\system\arch.h">
+      <Filter>include\rtc_base\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\system\asm_defines.h">
+      <Filter>include\rtc_base\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\system\inline.h">
+      <Filter>include\rtc_base\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\system\rtc_export.h">
+      <Filter>include\rtc_base\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\system\unused.h">
+      <Filter>include\rtc_base\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\checks.h">
+      <Filter>include\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\compile_assert_c.h">
+      <Filter>include\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\sanitizer.h">
+      <Filter>include\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtc_base\type_traits.h">
+      <Filter>include\rtc_base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\common_audio\signal_processing\auto_corr_to_refl_coef.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\auto_correlation.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\complex_bit_reverse.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\complex_fft.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\copy_set_operations.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\cross_correlation.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\division_operations.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\downsample_fast.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\energy.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\filter_ar.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\filter_ar_fast_q12.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\filter_ma_fast_q12.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\get_hanning_window.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\get_scaling_square.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\ilbc_specific_functions.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\levinson_durbin.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\lpc_to_refl_coef.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\min_max_operations.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\randomization_functions.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\real_fft.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\refl_coef_to_lpc.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\resample.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\resample_48khz.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\resample_by_2.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\resample_by_2_internal.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\resample_by_2_mips.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\resample_fractional.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\spl_init.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\spl_inl.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\spl_sqrt.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\splitting_filter.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\vector_scaling_operations.c">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_audio\signal_processing\dot_product_with_scale.cc">
+      <Filter>src\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\abs_quant.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\abs_quant_loop.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\augmented_cb_corr.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\bw_expand.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\cb_construct.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\cb_mem_energy.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\cb_mem_energy_augmentation.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\cb_mem_energy_calc.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\cb_search.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\cb_search_core.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\cb_update_best_index.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\chebyshev.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\comp_corr.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\constants.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\create_augmented_vec.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\decode.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\decode_residual.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\decoder_interpolate_lsf.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\do_plc.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\encode.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\energy_inverse.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\enh_upsample.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\enhancer.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\enhancer_interface.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\filtered_cb_vecs.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\frame_classify.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\gain_dequant.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\gain_quant.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\get_cd_vec.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\get_lsp_poly.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\get_sync_seq.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\hp_input.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\hp_output.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\index_conv_dec.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\index_conv_enc.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\init_decode.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\init_encode.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\interpolate.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\interpolate_samples.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\lpc_encode.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\lsf_check.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\lsf_interpolate_to_poly_dec.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\lsf_interpolate_to_poly_enc.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\lsf_to_lsp.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\lsf_to_poly.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\lsp_to_lsf.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\my_corr.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\nearest_neighbor.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\pack_bits.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\poly_to_lsf.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\poly_to_lsp.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\refiner.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\simple_interpolate_lsf.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\simple_lpc_analysis.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\simple_lsf_dequant.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\simple_lsf_quant.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\smooth.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\smooth_out_data.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\sort_sq.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\split_vq.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\state_construct.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\state_search.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\swap_bytes.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\unpack_bits.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\vq3.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\vq4.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\window32_w32.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\audio_coding\codecs\ilbc\xcorr_coef.c">
+      <Filter>src\modules\audio_coding\codecs\ilbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtc_base\checks.cc">
+      <Filter>src\rtc_base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
